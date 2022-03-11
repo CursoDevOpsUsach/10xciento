@@ -16,7 +16,7 @@
 							"    pm.response.to.have.status(200)",
 							"});",
 							"",
-							"pm.test(\"Response time is less than 1500ms\", () => {",
+							"pm.test(\"Response time is less than 2200ms\", () => {",
 							"  pm.expect(pm.response.responseTime).to.be.below(1500);",
 							"});",
 							"",
